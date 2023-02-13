@@ -8,11 +8,11 @@
 		label = "default_kscan";
 
 		input-gpios =
-			<&nice_nano_v2 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-			<&nice_nano_v2 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-			<&nice_nano_v2 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-			<&nice_nano_v2 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-			<&nice_nano_v2 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-			<&nice_nano_v2 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+			<&nice_nano_v2 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+			<&nice_nano_v2 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+			<&nice_nano_v2 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+			<&nice_nano_v2 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+			<&nice_nano_v2 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+			<&nice_nano_v2 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 	};
 };
